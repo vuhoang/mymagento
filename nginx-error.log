@@ -122,3 +122,5 @@ Stack trace:
 2020/06/07 11:44:00 [info] 295#0: *1016 kevent() reported that client 127.0.0.1 closed keepalive connection
 2020/06/07 11:44:00 [info] 295#0: *1072 kevent() reported that client 127.0.0.1 closed keepalive connection
 2020/06/07 11:44:00 [info] 295#0: *1012 kevent() reported that client 127.0.0.1 closed keepalive connection
+2020/06/11 21:20:16 [info] 248#0: *4 kevent() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 127.0.0.1, server: magento.dev.local, request: "GET /admin_dbh9ux HTTP/1.1", upstream: "fastcgi://127.0.0.1:9071", host: "magento.dev.local"
+2020/06/11 21:20:17 [info] 248#0: *3 kevent() reported that client prematurely closed connection, so upstream connection is closed too while sending request to upstream, client: 127.0.0.1, server: magento.dev.local, request: "GET / HTTP/1.1", upstream: "fastcgi://127.0.0.1:9071", host: "magento.dev.local"
