@@ -17,20 +17,20 @@ echo_and_run 'rm -rf pub/static/frontend/*'
 echo ''
 echo_and_run "${phprun} -d memory_limit=-1 bin/magento setup:upgrade"
 echo ''
-#echo_and_run "${phprun} -d memory_limit=-1 bin/magento setup:di:compile"
-#echo ''
+echo_and_run "${phprun} -d memory_limit=-1 bin/magento setup:di:compile"
+echo ''
 echo_and_run 'chmod -R 777 var pub'
 echo ''
 echo_and_run "grunt clean"
 echo ''
-#echo_and_run "grunt exec:backend"
-#echo ''
-#echo_and_run "grunt less:backend"
-#echo ''
-#echo_and_run "grunt exec:blank"
-#echo ''
-#echo_and_run "grunt less:blank"
-#echo ''
+echo_and_run "grunt exec:backend"
+echo ''
+echo_and_run "grunt less:backend"
+echo ''
+echo_and_run "grunt exec:blank"
+echo ''
+echo_and_run "grunt less:blank"
+echo ''
 echo_and_run "grunt exec:luma"
 echo ''
 echo_and_run "grunt less:luma"
