@@ -22,15 +22,15 @@ echo ''
 echo_and_run 'chmod -R 777 var pub'
 echo ''
 echo_and_run "grunt clean"
-echo ''
-echo_and_run "grunt exec:backend"
-echo ''
-echo_and_run "grunt less:backend"
-echo ''
-echo_and_run "grunt exec:blank"
-echo ''
-echo_and_run "grunt less:blank"
-echo ''
+#echo ''
+#echo_and_run "grunt exec:backend"
+#echo ''
+#echo_and_run "grunt less:backend"
+#echo ''
+#echo_and_run "grunt exec:blank"
+#echo ''
+#echo_and_run "grunt less:blank"
+#echo ''
 echo_and_run "grunt exec:luma"
 echo ''
 echo_and_run "grunt less:luma"
